@@ -69,6 +69,16 @@ button {
   border-radius: 8px;
 }
 
+/* ACTIVE STATES */
+
+input:focus,
+input:active {
+  border: 1px solid #242742;
+  outline: none;
+  color: #242742;
+  cursor: pointer;
+}
+
 /* IMAGES */
 
 .img {
@@ -165,6 +175,16 @@ label {
 /* DESKTOP */
 
 @media (min-width: 1440px) {
+  /* ACTIVE STATES */
+
+  button:focus,
+  button:active,
+  button:hover {
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(90deg, #ff6a3a 0%, #ff527b 100%);
+  }
+
   /* IMAGES */
 
   .img {
