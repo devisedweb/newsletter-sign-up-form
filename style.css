@@ -7,6 +7,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.newsletter-container {
+  height: 100svh;
+}
+
 /* TYPOGRAPHY */
 
 h1,
