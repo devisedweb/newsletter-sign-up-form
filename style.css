@@ -8,7 +8,7 @@ body {
 }
 
 main {
-  height: 100svh;
+  min-height: 100svh;
 }
 
 /* TYPOGRAPHY */
