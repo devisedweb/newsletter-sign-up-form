@@ -111,6 +111,57 @@ label {
   margin-bottom: 0.5rem;
 }
 
+/* MEDIA QUERIES */
+
+/* TABLET */
+
+@media (min-width: 768px) {
+  /* TYPOGRAPHY */
+
+  body {
+    background-color: #36384d;
+  }
+
+  .newsletter-container {
+    background-color: #fff;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  /* IMAGES */
+
+  .img {
+    margin-bottom: 2.5rem;
+  }
+
+  /* LAYOUT */
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .newsletter-container {
+    width: 38rem;
+    padding: 2.5rem;
+    border: 1px solid #151515;
+    border-radius: 2.25rem;
+  }
+
+  .newsletter {
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  form {
+    gap: 1rem;
+  }
+}
+
 /* .attribution {
   font-size: 0.6875rem;
   text-align: center;
