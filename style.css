@@ -1,3 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+/* TYPOGRAPHY */
+
+h1,
+.desc,
+label {
+  color: #242742;
+}
+
+h1,
+.desc {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.desc,
+li p,
+label,
+input,
+button {
+  line-height: 150%;
+}
+
+ul,
+li p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+label {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+input,
+button {
+  font-size: 1rem;
+}
+
+input {
+  padding: 1rem 1.5rem;
+  border: 1px solid #949494;
+  border-radius: 8px;
+  color: #949494;
+}
+
+button {
+  background-color: #242742;
+  color: #fff;
+  padding: 1rem 3rem;
+  border: none;
+  border-radius: 8px;
+}
+
+/* IMAGES */
+
+.illustration-mobile {
+  width: 100%;
+}
+
+/* LAYOUT */
+
+.newsletter {
+  padding: 2.5rem 1.5rem 2.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.newsletter-content,
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+li {
+  display: flex;
+  gap: 1rem;
+}
+
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
 /* .attribution {
   font-size: 0.6875rem;
   text-align: center;
