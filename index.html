@@ -20,11 +20,28 @@
   <body>
     <div class="newsletter-container">
       <div class="image-container">
-        <img
-          src="./assets/images/illustration-sign-up-mobile.svg"
-          alt="Illustration sign-up for mobile"
-          class="illustration-mobile"
-        />
+        <picture>
+          <!-- image for desktop -->
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/images/illustration-sign-up-desktop.svg"
+            class="img-desktop"
+          />
+
+          <!-- image for tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/illustration-sign-up-tablet.svg"
+            class="img-tablet"
+          />
+
+          <!-- image for mobile -->
+          <img
+            src="./assets/images/illustration-sign-up-mobile.svg"
+            alt="Illustration sign-up for mobile"
+            class="img-mobile"
+          />
+        </picture>
       </div>
 
       <div class="newsletter">
