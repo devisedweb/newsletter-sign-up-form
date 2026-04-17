@@ -3,7 +3,7 @@ const formErrorMessage = document.querySelector(".form-error-message");
 const emailInput = document.querySelector("#email");
 
 const newsletterContainer = document.querySelector(".newsletter-container");
-const sucessPageContainer = document.querySelector(".success-page-container");
+const successPageContainer = document.querySelector(".success-page-container");
 const successEmail = document.querySelector(".success-desc strong");
 const dismissBtn = document.querySelector(".success-page button");
 
@@ -26,7 +26,7 @@ function handleSignUpForm(e) {
   if (!emailErrorMessage) {
     newsletterContainer.style.display = "none";
 
-    sucessPageContainer.style.display = "flex";
+    successPageContainer.style.display = "flex";
   }
 
   successEmail.textContent = email;
@@ -46,7 +46,7 @@ function validateEmail(email) {
 }
 
 dismissBtn.addEventListener("click", function () {
-  sucessPageContainer.style.display = "none";
+  successPageContainer.style.display = "none";
 
   newsletterContainer.style.display = "block";
 
