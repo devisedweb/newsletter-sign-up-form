@@ -65,10 +65,16 @@
           </ul>
         </div>
 
-        <form action="">
+        <form action="" id="newsletter-form">
           <div class="label-input-container">
             <label for="email">Email address</label>
-            <input type="email" id="email" placeholder="email@company.com" />
+            <div class="form-error-message"></div>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="email@company.com"
+            />
           </div>
 
           <button type="submit">Subscribe to monthly newsletter</button>
