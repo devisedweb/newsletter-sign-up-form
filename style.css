@@ -18,7 +18,9 @@ body {
 /* TYPOGRAPHY */
 
 h1,
+h2,
 .desc,
+.success-desc,
 label {
   color: #242742;
 }
@@ -174,6 +176,10 @@ label {
   }
 
   h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
     font-size: 3.5rem;
   }
 
