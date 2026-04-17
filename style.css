@@ -146,6 +146,7 @@ label {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  display: none;
 }
 
 .success-page {
@@ -154,7 +155,6 @@ label {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  display: none;
 }
 
 .message {
