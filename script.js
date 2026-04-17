@@ -24,12 +24,11 @@ function handleSignUpForm(e) {
   }
 
   if (!emailErrorMessage) {
-    newsletterContainer.style.display = "none";
+    successEmail.textContent = email;
 
+    newsletterContainer.style.display = "none";
     successPageContainer.style.display = "flex";
   }
-
-  successEmail.textContent = email;
 }
 
 signupForm.addEventListener("submit", handleSignUpForm);
@@ -47,7 +46,6 @@ function validateEmail(email) {
 
 dismissBtn.addEventListener("click", function () {
   successPageContainer.style.display = "none";
-
   newsletterContainer.style.display = "block";
 
   const isDesktop = window.matchMedia("(min-width: 1440px)");
