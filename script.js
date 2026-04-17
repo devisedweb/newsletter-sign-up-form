@@ -21,6 +21,7 @@ function handleSignUpForm(e) {
 
   if (emailErrorMessage) {
     formErrorMessage.textContent = emailErrorMessage;
+    return;
   }
 
   if (!emailErrorMessage) {
