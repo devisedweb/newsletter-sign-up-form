@@ -9,10 +9,6 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100svh;
 }
 
 /* TYPOGRAPHY */
@@ -145,6 +141,13 @@ label {
   margin-bottom: 0.5rem;
 }
 
+.success-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .success-page {
   width: 20.438rem;
   height: 38.938rem;
@@ -168,6 +171,10 @@ label {
   /* TYPOGRAPHY */
 
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: #36384d;
   }
 
