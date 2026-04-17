@@ -1,3 +1,7 @@
+/* .newsletter-container {
+  display: none;
+} */
+
 * {
   box-sizing: border-box;
 }
@@ -5,6 +9,10 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
 }
 
 /* TYPOGRAPHY */
@@ -16,11 +24,14 @@ label {
 }
 
 h1,
-.desc {
+h2,
+.desc,
+.success-desc {
   margin: 0;
 }
 
-h1 {
+h1,
+h2 {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 100%;
@@ -30,7 +41,8 @@ h1 {
 li p,
 label,
 input,
-button {
+button,
+.success-desc {
   line-height: 150%;
 }
 
@@ -69,6 +81,11 @@ button {
   border-radius: 8px;
 }
 
+.success-page button {
+  font-weight: 700;
+  padding: 1rem;
+}
+
 /* ACTIVE STATES */
 
 input:focus,
@@ -83,6 +100,11 @@ input:active {
 
 .img {
   width: 100%;
+}
+
+.success-icon {
+  width: 64px;
+  height: 64px;
 }
 
 /* LAYOUT */
@@ -121,6 +143,21 @@ label {
   margin-bottom: 0.5rem;
 }
 
+.success-page {
+  width: 20.438rem;
+  height: 38.938rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  display: none;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 /* MEDIA QUERIES */
 
 /* TABLET */
@@ -147,13 +184,6 @@ label {
   }
 
   /* LAYOUT */
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
 
   .newsletter-container {
     width: 38rem;
@@ -200,6 +230,10 @@ label {
     justify-content: space-around;
     gap: 4rem;
   }
+
+  /* .newsletter-container {
+    display: none;
+  } */
 
   .newsletter {
     order: -1;
