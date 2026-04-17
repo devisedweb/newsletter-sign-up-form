@@ -200,6 +200,17 @@ label {
   form {
     gap: 1rem;
   }
+
+  .success-page {
+    width: 31.5rem;
+    height: auto;
+    padding: 4rem;
+    border: 1px solid #151515;
+    border-radius: 36px;
+    justify-content: stretch;
+    gap: 2rem;
+    background-color: #fff;
+  }
 }
 
 /* DESKTOP */
